@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<meta name="description" content="">
+	
+	<meta name="author" content="">
+	
+	<link rel="icon" href="images/Sant_featured.png">
+	
+	<title>NPS_v2</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid" id="wrapper">
+		<div class="row">
+			<nav class="sidebar col-xs-12 col-sm-4 col-lg-3 col-xl-2 bg-faded sidebar-style-1">
+				<!--<header class="page-header justify-center" style="margin-top:-30px;">
+						<img src="images/santander_400x400.jpg" width="100%" height="220px">						
+				</header>-->
+				
+				<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><em class="fa fa-bars"></em></a>
+				
+				<ul class="nav nav-pills flex-column sidebar-nav">
+					<li class="nav-item"><a class="nav-link" href="index.html">Aplicativos</a></li>
+					<li class="nav-item"><a class="nav-link" href="Comunicacao.html">Comunicação</a></li>
+					<li class="nav-item"><a class="nav-link" href="Ura.html">Estratégia e Inovação URA</a></li>
+					<li class="nav-item"><a class="nav-link active" href="Facilities.html">Facilities e Acessos</a></li>
+					<li class="nav-item"><a class="nav-link" href="GestaoOnline.html">Gestão Online</a></li>
+					<li class="nav-item"><a class="nav-link" href="Informacoes.html">Informações e Análises</a></li>
+					<li class="nav-item"><a class="nav-link" href="Planejamento.html">Planejamento</a></li>
+					<li class="nav-item"><a class="nav-link" href="Projetos.html">Projetos e Processos</a></li>
+					<li class="nav-item"><a class="nav-link" href="Qualidade.html">Qualidade</a></li>
+					<li class="nav-item"><a class="nav-link" href="Riscos.html">Riscos Operacionais</a></li>
+					<li class="nav-item"><a class="nav-link" href="Treinamento.html">Treinamento</a></li>
+				</ul>
+				
+				<a href="#" class="logout-button"></a></nav>
+			
+			<main class="col-xs-12 col-sm-8 offset-sm-4 col-lg-9 offset-lg-3 col-xl-10 offset-xl-2 pt-3 pl-4">							
+				<section class="row">
+					<div class="col-sm-12">
+						<section class="row">
+							<div class="col-md-12 col-lg-12">
+								<div class="jumbotron">
+									<h1 class="mb-4">NPS: Facilities e Acessos</h1>
+									
+									<p class="lead">Prestar atendimento em primeiro nível com suporte ao usuário final para garantir a funcionalidade de todos os sistemas/perfis, 
+									mantendo a interface com as Áreas técnica (Produban, IBM, Segurança da informação).</p>
+								</div>
+								
+								<div class="card mb-4">
+									<div class="card-block">
+										<div class="form-group">
+											<p>Com base em sua última interação com a área de <strong>Facilities e Acessos</strong>, qual a chance de você recomendar nosso serviço/atendimento a um colega?
+											Considere 0 para <strong>“pouco provável”</strong> e 10 para <strong>“muito provável”</strong></p> 
+											
+											<!-- Botões cinza -->
+											<button type="button" class="btn btn-primary nota" value="Aplicativos">0</button>
+											<button type="button" class="btn btn-primary nota" value="Aplicativos">1</button>
+											<button type="button" class="btn btn-primary nota" value="Aplicativos">2</button>
+											
+											<!-- Botões Amarelo -->
+											<button type="button" class="btn btn-warning nota" value="Aplicativos">3</button>
+											<button type="button" class="btn btn-warning nota" value="Aplicativos">4</button>
+											<button type="button" class="btn btn-warning nota" value="Aplicativos">5</button> 	
+
+											<!-- Botões Azul -->
+											<button type="button" class="btn btn-info nota" value="Aplicativos">6</button>
+											<button type="button" class="btn btn-info nota" value="Aplicativos">7</button>
+											<button type="button" class="btn btn-info nota" value="Aplicativos">8</button>
+
+											<!-- Botões Verde -->
+											<button type="button" class="btn btn-success nota" value="Aplicativos">9</button>
+											<button type="button" class="btn btn-success nota" value="Aplicativos">10</button>
+										</div>
+										<div class="form-group">
+											<label for="comment">Utilize o campo abaixo para justificar sua resposta, inserindo um comentário, crítica ou elogio para a área:</label>
+											<div class="alert-message"> </div>
+											<textarea class="form-control" rows="5" id="comment"></textarea>
+											<div class="modal-footer">
+												<button type="submit" id="enviarNota" class="btn btn-danger btn-default pull-right" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Enviar</button>  
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="row">
+							<div class="col-12 mt-1 mb-4">Template by <a href="https://www.medialoot.com">Medialoot</a></div>
+						</section>
+					</div>
+				</section>
+			</main>
+		</div>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    
+    <script src="js/chart.min.js"></script>
+    <script src="js/chart-data.js"></script>
+    <script src="js/easypiechart.js"></script>
+    <script src="js/easypiechart-data.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+	    window.onload = function () {
+	var chart1 = document.getElementById("line-chart").getContext("2d");
+	window.myLine = new Chart(chart1).Line(lineChartData, {
+	responsive: true,
+	scaleLineColor: "rgba(0,0,0,.2)",
+	scaleGridLineColor: "rgba(0,0,0,.05)",
+	scaleFontColor: "#c5c7cc"
+	});
+};
+	</script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    
+	  </body>
+</html>
+<script>
+$(".nota").click(function(){
+	$(".nota").removeAttr('style');
+	$(this).animate({
+    fontSize: "2em"
+  	}, 1100 );
+});
+$('#enviarNota').on('click', function(event) 
+{ 
+  if($("#comment").val() != ""){
+    return true;
+  }else{  
+    var htmlAlert = '<div class="alert card-warning"><em class="fa fa-exclamation-triangle mr-2"></em> <strong>Importe! </strong>É preciso preencher o campo de justificativa.</div>';   
+    $(".alert-message").prepend(htmlAlert);    
+    $(".alert-message .alert").first().hide().fadeIn(200).delay(2000).fadeOut(1000, function () { $(this).remove(); });
+      return false;
+  }
+});
+</script>

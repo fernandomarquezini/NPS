@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<meta name="description" content="">
+	
+	<meta name="author" content="">
+	
+	<link rel="icon" href="images/Sant_featured.png">
+	
+	<title>NPS_v2</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid" id="wrapper">
+		<div class="row">
+			<nav class="sidebar col-xs-12 col-sm-4 col-lg-3 col-xl-2 bg-faded sidebar-style-1">				
+				<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><em class="fa fa-bars"></em></a>
+				
+				<ul class="nav nav-pills flex-column sidebar-nav">
+					<li class="nav-item"><a class="nav-link active" href="index.html">Aplicativos</a></li>
+					<li class="nav-item"><a class="nav-link" href="Comunicacao.html">Comunicação</a></li>
+					<li class="nav-item"><a class="nav-link" href="Ura.html">Estratégia e Inovação URA</a></li>
+					<li class="nav-item"><a class="nav-link" href="Facilities.html">Acessos e Facilities</a></li>
+					<li class="nav-item"><a class="nav-link" href="GestaoOnline.html">Gestão Online</a></li>
+					<li class="nav-item"><a class="nav-link" href="Informacoes.html">Informações e Análises</a></li>
+					<li class="nav-item"><a class="nav-link" href="Planejamento.html">Planejamento</a></li>
+					<li class="nav-item"><a class="nav-link" href="Projetos.html">Projetos e Processos</a></li>
+					<li class="nav-item"><a class="nav-link" href="Qualidade.html">Qualidade</a></li>
+					<li class="nav-item"><a class="nav-link" href="Riscos.html">Riscos Operacionais</a></li>
+					<li class="nav-item"><a class="nav-link" href="Treinamento.html">Treinamento</a></li>
+				</ul>
+				
+				<a href="#" class="logout-button"></a></nav>
+			
+			<main class="col-xs-12 col-sm-8 offset-sm-4 col-lg-9 offset-lg-3 col-xl-10 offset-xl-2 pt-3 pl-4">
+				<header class="page-header row justify-center menu-santander" style="margin-top: -16px;">
+					<div class="col-md-2 col-lg-8" >
+						<img src="images/Santander_1.png" alt="profile photo" class="circle float-left profile-photo" width="50%" height="auto">
+					</div>					
+					<div class="clear"></div>
+				</header>							
+				<section class="row">
+					<div class="col-sm-12">
+						<section class="row">
+							<div class="col-md-12 col-lg-12">
+								<div class="jumbotron">
+									<h1 class="mb-4">NPS: Aplicativos</h1>
+									
+									<p class="lead">Responsável por promover o desenvolvimento, manutenção e melhorias dos sistemas utilizados pelas centrais de atendimento, 
+										como Portal CIC, Portal BOA, People, JH, GCA, SIM, GOC, Help Online.</p>
+								</div>
+								<input type="hidden" id="notaSelecionada">
+								<div class="card mb-4">
+									<div class="card-block">
+										<form>
+											<div class="form-group">
+												<p>Com base em sua última interação com a área de <strong>Aplicativos</strong>, qual a chance de você recomendar nosso serviço/atendimento a um colega?
+												Considere 0 para <strong>“pouco provável”</strong> e 10 para <strong>“muito provável”</strong></p> 
+												
+												<!-- Botões cinza -->
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>0</strong></button>
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>1</strong></button>
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>2</strong></button>
+												
+												<!-- Botões Amarelo -->
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>3</strong></button>
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>4</strong></button>
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>5</strong></button> 	
+
+												<!-- Botões Azul -->
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>6</strong></button>
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>7</strong></button>
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>8</strong></button>
+
+												<!-- Botões Verde -->
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>9</strong></button>
+												<button type="button" class="btn btn-primary nota" value="Aplicativos"><strong>10</strong></button>
+											</div>
+											<div class="form-group">
+												<label for="comment">Utilize o campo abaixo para justificar sua resposta, inserindo um comentário, crítica ou elogio para a área:</label>
+												<div class="alert-message"> </div>
+												<textarea class="form-control" rows="5" id="comment"></textarea>
+												<div class="modal-footer">
+													<button type="submit" id="enviarNota" class="btn btn-danger btn-default pull-right" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Enviar</button>  
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</section>
+				<footer>
+					<div class="form-group">
+						<div class="col-md-12 widget"><strong>© 2018 | Santander <span class="pull-right"><a href="mailto:p000fpanca@prservicos.com.br">Fernando Pança</a></span></strong></div>
+					</div>
+				</footer>
+			</main>
+		</div>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    
+    <script src="js/chart.min.js"></script>
+    <script src="js/chart-data.js"></script>
+    <script src="js/easypiechart.js"></script>
+    <script src="js/easypiechart-data.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/custom.js"></script>
+	</body>
+</html>
